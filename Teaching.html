@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Teaching - Materials Modelling and Simulation Lab</title>
+    <style>
+        :root {
+            --nav-bg: #0c2a45;
+            --nav-strip: #123757;
+            --page: #f0f4f8;
+            --ink: #0f1b26;
+            --muted: #6c7a86;
+            --accent: #1b76d1;
+            --card: #fff;
+            --soft: #e8eef5;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+            background: var(--page);
+            color: var(--ink)
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+
+        /* Header & Nav */
+        .header {
+            background: var(--nav-bg);
+            color: #e6f0f9;
+            padding: 16px 20px
+        }
+
+        .title {
+            font-weight: 900;
+            letter-spacing: .6px
+        }
+
+        .nav {
+            background: var(--nav-strip);
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 10px 12px
+        }
+
+        .nav a {
+            color: #e6f0f9;
+            padding: 6px 10px;
+            border-radius: 6px
+        }
+
+        .nav a:hover {
+            background: rgba(255, 255, 255, .12)
+        }
+
+        /* Content */
+        .container {
+            max-width: 1100px;
+            margin: 24px auto;
+            padding: 0 16px;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 10px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, .08);
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            margin: 0;
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--soft)
+        }
+
+        .card .body {
+            padding: 16px
+        }
+
+        ul {
+            line-height: 1.7em;
+        }
+
+        .banner {
+            width: 100%;
+            height: 280px;
+            background: url('https://via.placeholder.com/1100x280?text=Teaching+and+Learning') center/cover no-repeat;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+            margin: 24px 0
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="title"><strong>MATERIALS MODELLING & SIMULATION LAB</strong></div>
+    </header>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <a href="home.html">Home</a>
+        <a href="members.html">Members</a>
+        <a href="Publications.html">Publications</a>
+        <a href="resources.html">Resources</a>
+        <a href="Teaching.html">Teaching</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="Dr.Abdul-Jalil.html">Dr. Abdul Jalil</a>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="container">
+
+        <!-- Banner -->
+<div class="banner">
+  <img src="material.jpg" alt="Teaching Banner" style="width:100%; border-radius:10px;">
+</div>
+
+        <!-- Course Outline -->
+        <div class="card">
+            <h2>Course Outline</h2>
+            <div class="body">
+                <ul>
+                    <li>Chapter 1: Introduction</li>
+                    <li>Chapter 2: Crystal Lattice, basis, miller index et.al.</li>
+                    <li>Chapter 3: Symmetry of Crystals</li>
+                    <li>Chapter 4: Real Crystals</li>
+                    <li>Chapter 5: Reciprocal space</li>
+                    <li>Chapter 6: Crystal structure determination</li>
+                    <li>Chapter 7: Crystal binding - ionic and covalent bond</li>
+                    <li>Chapter 8: Metallic bond, H bond, VdW interaction</li>
+                    <li>Chapter 9: Classical Theory of the Harmonic Crystal</li>
+                    <li>Chapter 10: Quantum Theory of the Harmonic Crystal</li>
+                    <li>Chapter 11: Models of Einstein and Debye</li>
+                    <li>Chapter 12: Optical Properties in Ionic Crystal</li>
+                    <li>Chapter 13: Anharmonic Effects in Crystals</li>
+                    <li>Chapter 14: Measuring Phonon Dispersion Relations</li>
+                    <li>Chapter 15: The Drude & Sommerfeld Theory of Metals</li>
+                    <li>Chapter 16: Thermal Properties, Paramagnetism, Conduction</li>
+                    <li>Chapter 17: Band theory (Weak Periodic Potential)</li>
+                    <li>Chapter 18: Band theory (Tight-Binding Model)</li>
+                    <li>Chapter 19: Other Band Structure Methods</li>
+                    <li>Chapter 20: Symmetry of Energy Bands</li>
+                    <li>Chapter 21: Density of States & Fermi Surface</li>
+                    <li>Chapter 22: Electrons in Electric Field</li>
+                    <li>Chapter 23: Electrons in Magnetic Field</li>
+                    <li>Chapter 24: Measuring Band Structure</li>
+                    <li>Chapter 25: Electron Transport in Metals</li>
+                    <li>Summary</li>
+                    <li>References (Kittel, Thesis)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Learning Outcomes -->
+        <div class="card">
+            <h2>Learning Outcomes</h2>
+            <div class="body">
+                <ul>
+                    <li>Understand crystal structures and their properties.</li>
+                    <li>Explain electron and phonon behavior in solids.</li>
+                    <li>Analyze band theory and its applications.</li>
+                    <li>Apply computational tools for material modeling.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Assessment -->
+        <div class="card">
+            <h2>Assessment Methods</h2>
+            <div class="body">
+                <ul>
+                    <li>Assignments & Quizzes – 20%</li>
+                    <li>Midterm Exam – 30%</li>
+                    <li>Final Exam – 40%</li>
+                    <li>Class Participation & Presentations – 10%</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Books -->
+        <div class="card">
+            <h2>Recommended Books</h2>
+            <div class="body">
+                <ul>
+                    <li>Charles Kittel, <em>Introduction to Solid State Physics</em></li>
+                    <li>Ashcroft & Mermin, <em>Solid State Physics</em></li>
+                    <li>Stephen Elliott, <em>The Physics and Chemistry of Solids</em></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Downloads -->
+        <div class="card">
+            <h2>Lecture Notes & Resources</h2>
+            <div class="body">
+                <p>You can download lecture slides and assignments here:</p>
+                <ul>
+                    <li><a href="#">Lecture 1 – Introduction (PDF)</a></li>
+                    <li><a href="#">Lecture 2 – Crystal Symmetry (PDF)</a></li>
+                    <li><a href="#">Assignment 1 (PDF)</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        &copy; 2025 Department of Physics, AIOU
+    </footer>
+</body>
+
+</html>
